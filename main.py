@@ -52,7 +52,6 @@ def keygen(al, list0):
         for i in range(counter - 1):
             if i == 3:
                 string = string[:-1]
-                print(string)
                 lbl.configure(text=string)
                 return None
             for j in range(counter - i - 1):
@@ -64,7 +63,6 @@ def keygen(al, list0):
             string += '-'
             list1.pop(counter - 1 - i)
     else:
-        print(string)
         lbl.configure(text=string)
 
 
